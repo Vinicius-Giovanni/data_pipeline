@@ -1,0 +1,291 @@
+
+2025-06-23 15:43:01 | INFO | Iniciando execução do pipeline: OLPN
+2025-06-23 15:43:01 | INFO | Executando pipeline: OLPN
+2025-06-23 15:43:01 | INFO | Iniciando leitura dos arquivos CSV para o pipeline 'olpn' no diretório 'C:\Users\2960006959\Desktop\DataTransformer\data_pipeline\data\raw\data_olpn'.
+2025-06-23 15:46:28 | INFO | Salvo: dados_01-2025.csv (477.723 linhas)
+2025-06-23 15:46:32 | INFO | Salvo: dados_02-2025.csv (408.397 linhas)
+2025-06-23 15:46:40 | INFO | Salvo: dados_03-2025.csv (413.267 linhas)
+2025-06-23 15:46:45 | INFO | Salvo: dados_04-2025.csv (400.805 linhas)
+2025-06-23 15:46:51 | INFO | Salvo: dados_05-2025.csv (425.690 linhas)
+2025-06-23 15:46:55 | INFO | Salvo: dados_06-2024.csv (366.055 linhas)
+2025-06-23 15:46:58 | INFO | Salvo: dados_06-2025.csv (323.283 linhas)
+2025-06-23 15:47:04 | INFO | Salvo: dados_07-2024.csv (429.095 linhas)
+2025-06-23 15:47:08 | INFO | Salvo: dados_08-2024.csv (391.842 linhas)
+2025-06-23 15:47:11 | INFO | Salvo: dados_09-2024.csv (284.100 linhas)
+2025-06-23 15:47:15 | INFO | Salvo: dados_10-2024.csv (313.174 linhas)
+2025-06-23 15:47:25 | INFO | Salvo: dados_11-2024.csv (664.248 linhas)
+2025-06-23 15:47:32 | INFO | Salvo: dados_12-2024.csv (452.452 linhas)
+2025-06-23 15:47:38 | INFO | Convertido: dados_01-2025.csv -> dados_01-2025.parquet
+2025-06-23 15:47:43 | INFO | Convertido: dados_02-2025.csv -> dados_02-2025.parquet
+2025-06-23 15:47:47 | INFO | Convertido: dados_03-2025.csv -> dados_03-2025.parquet
+2025-06-23 15:47:52 | INFO | Convertido: dados_04-2025.csv -> dados_04-2025.parquet
+2025-06-23 15:47:58 | INFO | Convertido: dados_05-2025.csv -> dados_05-2025.parquet
+2025-06-23 15:48:02 | INFO | Convertido: dados_06-2024.csv -> dados_06-2024.parquet
+2025-06-23 15:48:06 | INFO | Convertido: dados_06-2025.csv -> dados_06-2025.parquet
+2025-06-23 15:48:11 | INFO | Convertido: dados_07-2024.csv -> dados_07-2024.parquet
+2025-06-23 15:48:16 | INFO | Convertido: dados_08-2024.csv -> dados_08-2024.parquet
+2025-06-23 15:48:19 | INFO | Convertido: dados_09-2024.csv -> dados_09-2024.parquet
+2025-06-23 15:48:23 | INFO | Convertido: dados_10-2024.csv -> dados_10-2024.parquet
+2025-06-23 15:48:31 | INFO | Convertido: dados_11-2024.csv -> dados_11-2024.parquet
+2025-06-23 15:48:38 | INFO | Convertido: dados_12-2024.csv -> dados_12-2024.parquet
+2025-06-23 15:48:38 | INFO | Pipeline "olpn" finalizado com sucesso.
+2025-06-23 15:48:38 | INFO | Pipeline OLPN executado com sucesso.
+2025-06-23 15:48:38 | INFO | Iniciando execução do pipeline: PICKING
+2025-06-23 15:48:38 | INFO | Executando pipeline: PICKING
+2025-06-23 15:48:38 | INFO | Iniciando leitura dos arquivos CSV para o pipeline 'picking' no diretório 'C:\Users\2960006959\Desktop\DataTransformer\data_pipeline\data\raw\data_picking'.
+2025-06-23 15:50:50 | INFO | Salvo: dados_01-2025.csv (130.655 linhas)
+2025-06-23 15:50:54 | INFO | Salvo: dados_02-2025.csv (250.771 linhas)
+2025-06-23 15:50:56 | INFO | Salvo: dados_03-2024.csv (133.377 linhas)
+2025-06-23 15:51:02 | INFO | Salvo: dados_03-2025.csv (403.498 linhas)
+2025-06-23 15:51:04 | INFO | Salvo: dados_04-2024.csv (113.912 linhas)
+2025-06-23 15:51:11 | INFO | Salvo: dados_04-2025.csv (397.868 linhas)
+2025-06-23 15:51:11 | INFO | Salvo: dados_05-2024.csv (35.114 linhas)
+2025-06-23 15:51:18 | INFO | Salvo: dados_05-2025.csv (435.912 linhas)
+2025-06-23 15:51:23 | INFO | Salvo: dados_06-2025.csv (310.598 linhas)
+2025-06-23 15:51:24 | INFO | Salvo: dados_07-2024.csv (78.379 linhas)
+2025-06-23 15:51:25 | INFO | Salvo: dados_08-2024.csv (58.468 linhas)
+2025-06-23 15:51:38 | INFO | Salvo: dados_09-2024.csv (537.196 linhas)
+2025-06-23 15:51:39 | INFO | Salvo: dados_10-2024.csv (15.346 linhas)
+2025-06-23 15:51:46 | INFO | Salvo: dados_11-2024.csv (222.278 linhas)
+2025-06-23 15:51:49 | INFO | Salvo: dados_12-2024.csv (211.881 linhas)
+2025-06-23 15:51:52 | INFO | Convertido: dados_01-2025.csv -> dados_01-2025.parquet
+2025-06-23 15:51:58 | INFO | Convertido: dados_02-2025.csv -> dados_02-2025.parquet
+2025-06-23 15:52:01 | INFO | Convertido: dados_03-2024.csv -> dados_03-2024.parquet
+2025-06-23 15:52:09 | INFO | Convertido: dados_03-2025.csv -> dados_03-2025.parquet
+2025-06-23 15:52:12 | INFO | Convertido: dados_04-2024.csv -> dados_04-2024.parquet
+2025-06-23 15:52:20 | INFO | Convertido: dados_04-2025.csv -> dados_04-2025.parquet
+2025-06-23 15:52:21 | INFO | Convertido: dados_05-2024.csv -> dados_05-2024.parquet
+2025-06-23 15:52:30 | INFO | Convertido: dados_05-2025.csv -> dados_05-2025.parquet
+2025-06-23 15:52:36 | INFO | Convertido: dados_06-2025.csv -> dados_06-2025.parquet
+2025-06-23 15:52:38 | INFO | Convertido: dados_07-2024.csv -> dados_07-2024.parquet
+2025-06-23 15:52:39 | INFO | Convertido: dados_08-2024.csv -> dados_08-2024.parquet
+2025-06-23 15:52:50 | INFO | Convertido: dados_09-2024.csv -> dados_09-2024.parquet
+2025-06-23 15:52:50 | INFO | Convertido: dados_10-2024.csv -> dados_10-2024.parquet
+2025-06-23 15:52:56 | INFO | Convertido: dados_11-2024.csv -> dados_11-2024.parquet
+2025-06-23 15:53:00 | INFO | Convertido: dados_12-2024.csv -> dados_12-2024.parquet
+2025-06-23 15:53:00 | INFO | Pipeline "picking" finalizado com sucesso.
+2025-06-23 15:53:04 | INFO | Pipeline PICKING executado com sucesso.
+2025-06-23 15:53:04 | INFO | Iniciando execução do pipeline: CANCEL
+2025-06-23 15:53:04 | INFO | Executando pipeline: CANCEL
+2025-06-23 15:53:04 | INFO | Iniciando leitura dos arquivos CSV para o pipeline 'cancel' no diretório 'C:\Users\2960006959\Desktop\DataTransformer\data_pipeline\data\raw\data_cancel'.
+2025-06-23 15:53:10 | INFO | Salvo: dados_01-2025.csv (4.291 linhas)
+2025-06-23 15:53:10 | INFO | Salvo: dados_02-2025.csv (3.115 linhas)
+2025-06-23 15:53:10 | INFO | Salvo: dados_03-2025.csv (1.895 linhas)
+2025-06-23 15:53:10 | INFO | Salvo: dados_04-2025.csv (1.656 linhas)
+2025-06-23 15:53:10 | INFO | Salvo: dados_05-2024.csv (122 linhas)
+2025-06-23 15:53:10 | INFO | Salvo: dados_05-2025.csv (1.715 linhas)
+2025-06-23 15:53:10 | INFO | Salvo: dados_06-2024.csv (6.059 linhas)
+2025-06-23 15:53:10 | INFO | Salvo: dados_06-2025.csv (2.060 linhas)
+2025-06-23 15:53:10 | INFO | Salvo: dados_07-2024.csv (2.139 linhas)
+2025-06-23 15:53:10 | INFO | Salvo: dados_08-2024.csv (1.938 linhas)
+2025-06-23 15:53:10 | INFO | Salvo: dados_09-2024.csv (1.954 linhas)
+2025-06-23 15:53:10 | INFO | Salvo: dados_10-2024.csv (4.217 linhas)
+2025-06-23 15:53:10 | INFO | Salvo: dados_11-2024.csv (3.601 linhas)
+2025-06-23 15:53:10 | INFO | Salvo: dados_12-2024.csv (2.425 linhas)
+2025-06-23 15:53:11 | INFO | Convertido: dados_01-2025.csv -> dados_01-2025.parquet
+2025-06-23 15:53:11 | INFO | Convertido: dados_02-2025.csv -> dados_02-2025.parquet
+2025-06-23 15:53:11 | INFO | Convertido: dados_03-2025.csv -> dados_03-2025.parquet
+2025-06-23 15:53:11 | INFO | Convertido: dados_04-2025.csv -> dados_04-2025.parquet
+2025-06-23 15:53:11 | INFO | Convertido: dados_05-2024.csv -> dados_05-2024.parquet
+2025-06-23 15:53:11 | INFO | Convertido: dados_05-2025.csv -> dados_05-2025.parquet
+2025-06-23 15:53:11 | INFO | Convertido: dados_06-2024.csv -> dados_06-2024.parquet
+2025-06-23 15:53:11 | INFO | Convertido: dados_06-2025.csv -> dados_06-2025.parquet
+2025-06-23 15:53:11 | INFO | Convertido: dados_07-2024.csv -> dados_07-2024.parquet
+2025-06-23 15:53:11 | INFO | Convertido: dados_08-2024.csv -> dados_08-2024.parquet
+2025-06-23 15:53:11 | INFO | Convertido: dados_09-2024.csv -> dados_09-2024.parquet
+2025-06-23 15:53:11 | INFO | Convertido: dados_10-2024.csv -> dados_10-2024.parquet
+2025-06-23 15:53:11 | INFO | Convertido: dados_11-2024.csv -> dados_11-2024.parquet
+2025-06-23 15:53:11 | INFO | Convertido: dados_12-2024.csv -> dados_12-2024.parquet
+2025-06-23 15:53:11 | INFO | Pipeline "cancel" finalizado com sucesso.
+2025-06-23 15:53:12 | INFO | Pipeline CANCEL executado com sucesso.
+2025-06-23 15:53:12 | INFO | Iniciando execução do pipeline: LOAD
+2025-06-23 15:53:12 | INFO | Executando pipeline: LOAD
+2025-06-23 15:53:12 | INFO | Iniciando leitura dos arquivos CSV para o pipeline 'load' no diretório 'C:\Users\2960006959\Desktop\DataTransformer\data_pipeline\data\raw\data_load'.
+2025-06-23 15:54:45 | INFO | Pré-processamento finalizado: 3228430 linhas, 14 colunas.
+2025-06-23 15:54:52 | INFO | Salvo: dados_01-2025.csv (574.197 linhas)
+2025-06-23 15:54:53 | INFO | Salvo: dados_02-2025.csv (162.144 linhas)
+2025-06-23 15:54:55 | INFO | Salvo: dados_03-2025.csv (196.044 linhas)
+2025-06-23 15:54:59 | INFO | Salvo: dados_04-2025.csv (391.966 linhas)
+2025-06-23 15:55:03 | INFO | Salvo: dados_05-2025.csv (451.414 linhas)
+2025-06-23 15:55:07 | INFO | Salvo: dados_06-2025.csv (304.476 linhas)
+2025-06-23 15:55:07 | INFO | Salvo: dados_09-2024.csv (5.985 linhas)
+2025-06-23 15:55:08 | INFO | Salvo: dados_10-2024.csv (136.218 linhas)
+2025-06-23 15:55:12 | INFO | Salvo: dados_11-2024.csv (424.593 linhas)
+2025-06-23 15:55:18 | INFO | Salvo: dados_12-2024.csv (581.393 linhas)
+2025-06-23 15:55:25 | INFO | Convertido: dados_01-2025.csv -> dados_01-2025.parquet
+2025-06-23 15:55:26 | INFO | Convertido: dados_02-2025.csv -> dados_02-2025.parquet
+2025-06-23 15:55:29 | INFO | Convertido: dados_03-2025.csv -> dados_03-2025.parquet
+2025-06-23 15:55:33 | INFO | Convertido: dados_04-2025.csv -> dados_04-2025.parquet
+2025-06-23 15:55:38 | INFO | Convertido: dados_05-2025.csv -> dados_05-2025.parquet
+2025-06-23 15:55:42 | INFO | Convertido: dados_06-2025.csv -> dados_06-2025.parquet
+2025-06-23 15:55:42 | INFO | Convertido: dados_09-2024.csv -> dados_09-2024.parquet
+2025-06-23 15:55:43 | INFO | Convertido: dados_10-2024.csv -> dados_10-2024.parquet
+2025-06-23 15:55:48 | INFO | Convertido: dados_11-2024.csv -> dados_11-2024.parquet
+2025-06-23 15:55:55 | INFO | Convertido: dados_12-2024.csv -> dados_12-2024.parquet
+2025-06-23 15:55:55 | INFO | Pipeline "load" finalizado com sucesso.
+2025-06-23 15:55:55 | INFO | Pipeline LOAD executado com sucesso.
+2025-06-23 15:55:55 | INFO | Iniciando execução do pipeline: PUTAWAY
+2025-06-23 15:55:55 | INFO | Executando pipeline: PUTAWAY
+2025-06-23 15:55:55 | INFO | Iniciando leitura dos arquivos CSV para o pipeline 'putaway' no diretório 'C:\Users\2960006959\Desktop\DataTransformer\data_pipeline\data\raw\data_putaway'.
+2025-06-23 15:56:33 | INFO | Pré-processamento finalizado: 1292356 linhas, 14 colunas.
+2025-06-23 15:56:34 | INFO | Salvo: dados_01-2025.csv (37.685 linhas)
+2025-06-23 15:56:35 | INFO | Salvo: dados_02-2025.csv (101.618 linhas)
+2025-06-23 15:56:36 | INFO | Salvo: dados_03-2025.csv (125.651 linhas)
+2025-06-23 15:56:37 | INFO | Salvo: dados_04-2025.csv (131.870 linhas)
+2025-06-23 15:56:39 | INFO | Salvo: dados_05-2025.csv (192.702 linhas)
+2025-06-23 15:56:40 | INFO | Salvo: dados_06-2025.csv (147.443 linhas)
+2025-06-23 15:56:40 | INFO | Salvo: dados_08-2024.csv (30.289 linhas)
+2025-06-23 15:56:43 | INFO | Salvo: dados_09-2024.csv (326.894 linhas)
+2025-06-23 15:56:43 | INFO | Salvo: dados_10-2024.csv (32.112 linhas)
+2025-06-23 15:56:44 | INFO | Salvo: dados_11-2024.csv (81.096 linhas)
+2025-06-23 15:56:45 | INFO | Salvo: dados_12-2024.csv (84.996 linhas)
+2025-06-23 15:56:45 | INFO | Convertido: dados_01-2025.csv -> dados_01-2025.parquet
+2025-06-23 15:56:46 | INFO | Convertido: dados_02-2025.csv -> dados_02-2025.parquet
+2025-06-23 15:56:47 | INFO | Convertido: dados_03-2025.csv -> dados_03-2025.parquet
+2025-06-23 15:56:48 | INFO | Convertido: dados_04-2025.csv -> dados_04-2025.parquet
+2025-06-23 15:56:50 | INFO | Convertido: dados_05-2025.csv -> dados_05-2025.parquet
+2025-06-23 15:56:52 | INFO | Convertido: dados_06-2025.csv -> dados_06-2025.parquet
+2025-06-23 15:56:52 | INFO | Convertido: dados_08-2024.csv -> dados_08-2024.parquet
+2025-06-23 15:56:55 | INFO | Convertido: dados_09-2024.csv -> dados_09-2024.parquet
+2025-06-23 15:56:55 | INFO | Convertido: dados_10-2024.csv -> dados_10-2024.parquet
+2025-06-23 15:56:56 | INFO | Convertido: dados_11-2024.csv -> dados_11-2024.parquet
+2025-06-23 15:56:57 | INFO | Convertido: dados_12-2024.csv -> dados_12-2024.parquet
+2025-06-23 15:56:57 | INFO | Pipeline "putaway" finalizado com sucesso.
+2025-06-23 15:56:57 | INFO | Pipeline PUTAWAY executado com sucesso.
+2025-06-23 15:56:57 | INFO | Iniciando execução do pipeline: PACKING
+2025-06-23 15:56:57 | INFO | Executando pipeline: PACKING
+2025-06-23 15:56:57 | INFO | Iniciando leitura dos arquivos CSV para o pipeline 'packing' no diretório 'C:\Users\2960006959\Desktop\DataTransformer\data_pipeline\data\raw\data_packing'.
+2025-06-23 15:57:24 | INFO | Referência OLPN carregada com 5123381 registros.
+2025-06-23 15:57:37 | INFO | Merge com referência OLPN realizado com sucesso.
+2025-06-23 15:59:02 | INFO | Pré-processamento finalizado: 2973925 linhas, 16 colunas.
+2025-06-23 15:59:08 | INFO | Salvo: dados_01-2025.csv (403.903 linhas)
+2025-06-23 15:59:10 | INFO | Salvo: dados_02-2025.csv (327.395 linhas)
+2025-06-23 15:59:16 | INFO | Salvo: dados_03-2025.csv (466.514 linhas)
+2025-06-23 15:59:17 | INFO | Salvo: dados_04-2025.csv (135.635 linhas)
+2025-06-23 15:59:20 | INFO | Salvo: dados_05-2025.csv (281.423 linhas)
+2025-06-23 15:59:22 | INFO | Salvo: dados_06-2025.csv (229.017 linhas)
+2025-06-23 15:59:24 | INFO | Salvo: dados_08-2024.csv (189.090 linhas)
+2025-06-23 15:59:25 | INFO | Salvo: dados_09-2024.csv (150.396 linhas)
+2025-06-23 15:59:26 | INFO | Salvo: dados_10-2024.csv (88.825 linhas)
+2025-06-23 15:59:29 | INFO | Salvo: dados_11-2024.csv (278.145 linhas)
+2025-06-23 15:59:33 | INFO | Salvo: dados_12-2024.csv (397.048 linhas)
+2025-06-23 15:59:37 | INFO | Convertido: dados_01-2025.csv -> dados_01-2025.parquet
+2025-06-23 15:59:40 | INFO | Convertido: dados_02-2025.csv -> dados_02-2025.parquet
+2025-06-23 15:59:45 | INFO | Convertido: dados_03-2025.csv -> dados_03-2025.parquet
+2025-06-23 15:59:46 | INFO | Convertido: dados_04-2025.csv -> dados_04-2025.parquet
+2025-06-23 15:59:49 | INFO | Convertido: dados_05-2025.csv -> dados_05-2025.parquet
+2025-06-23 15:59:51 | INFO | Convertido: dados_06-2025.csv -> dados_06-2025.parquet
+2025-06-23 15:59:53 | INFO | Convertido: dados_08-2024.csv -> dados_08-2024.parquet
+2025-06-23 15:59:54 | INFO | Convertido: dados_09-2024.csv -> dados_09-2024.parquet
+2025-06-23 15:59:55 | INFO | Convertido: dados_10-2024.csv -> dados_10-2024.parquet
+2025-06-23 15:59:58 | INFO | Convertido: dados_11-2024.csv -> dados_11-2024.parquet
+2025-06-23 16:00:02 | INFO | Convertido: dados_12-2024.csv -> dados_12-2024.parquet
+2025-06-23 16:00:02 | INFO | Pipeline "packing" finalizado com sucesso.
+2025-06-23 16:00:02 | INFO | Pipeline PACKING executado com sucesso.
+2025-06-23 16:00:02 | INFO | Iniciando execução do pipeline: JORNADA
+2025-06-23 16:00:02 | INFO | Processando: 1.csv
+2025-06-23 16:00:03 | INFO | Salvo: dados_04-2025.csv (9991 linhas)
+2025-06-23 16:00:03 | INFO | Salvo: dados_05-2025.csv (11091 linhas)
+2025-06-23 16:00:03 | INFO | Processando: 2.csv
+2025-06-23 16:00:04 | INFO | Salvo: dados_03-2025.csv (11113 linhas)
+2025-06-23 16:00:04 | INFO | Salvo: dados_04-2025.csv (11761 linhas)
+2025-06-23 16:00:04 | INFO | Processando: a831145_diarioTotaisFuncionarios_20250618132027.csv
+2025-06-23 16:00:05 | INFO | Salvo: dados_05-2025.csv (12983 linhas)
+2025-06-23 16:00:05 | INFO | Salvo: dados_06-2025.csv (11336 linhas)
+2025-06-23 16:00:05 | INFO | Processando: abril.csv
+2025-06-23 16:00:05 | INFO | Salvo: dados_03-2025.csv (10957 linhas)
+2025-06-23 16:00:05 | INFO | Processando: fevereiro.csv
+2025-06-23 16:00:06 | INFO | Salvo: dados_01-2025.csv (12024 linhas)
+2025-06-23 16:00:06 | INFO | Salvo: dados_02-2025.csv (11332 linhas)
+2025-06-23 16:00:06 | INFO | Processando: janeiro.csv
+2025-06-23 16:00:07 | INFO | Salvo: dados_01-2025.csv (9946 linhas)
+2025-06-23 16:00:07 | INFO | Salvo: dados_12-2024.csv (11432 linhas)
+2025-06-23 16:00:07 | INFO | Processando: marco.csv
+2025-06-23 16:00:08 | INFO | Salvo: dados_02-2025.csv (10288 linhas)
+2025-06-23 16:00:08 | INFO | Salvo: dados_03-2025.csv (10086 linhas)
+2025-06-23 16:00:08 | INFO | Convertido: dados_01-2025.csv -> dados_01-2025.parquet
+2025-06-23 16:00:08 | INFO | Convertido: dados_02-2025.csv -> dados_02-2025.parquet
+2025-06-23 16:00:08 | INFO | Convertido: dados_03-2025.csv -> dados_03-2025.parquet
+2025-06-23 16:00:08 | INFO | Convertido: dados_04-2025.csv -> dados_04-2025.parquet
+2025-06-23 16:00:08 | INFO | Convertido: dados_05-2025.csv -> dados_05-2025.parquet
+2025-06-23 16:00:08 | INFO | Convertido: dados_06-2025.csv -> dados_06-2025.parquet
+2025-06-23 16:00:08 | INFO | Convertido: dados_12-2024.csv -> dados_12-2024.parquet
+2025-06-23 16:00:08 | INFO | Pipeline JORNADA executado com sucesso.
+2025-06-23 16:00:08 | INFO | Iniciando execução do pipeline: TIME_LEAD_OLPN
+2025-06-23 16:00:08 | INFO | Iniciando leitura dos dados...
+2025-06-23 16:00:09 | INFO | Lido: dados_01-2025.parquet
+2025-06-23 16:00:09 | INFO | Lido: dados_02-2025.parquet
+2025-06-23 16:00:09 | INFO | Lido: dados_03-2025.parquet
+2025-06-23 16:00:09 | INFO | Lido: dados_04-2025.parquet
+2025-06-23 16:00:09 | INFO | Lido: dados_05-2025.parquet
+2025-06-23 16:00:09 | INFO | Lido: dados_06-2025.parquet
+2025-06-23 16:00:09 | INFO | Lido: dados_09-2024.parquet
+2025-06-23 16:00:09 | INFO | Lido: dados_10-2024.parquet
+2025-06-23 16:00:09 | INFO | Lido: dados_11-2024.parquet
+2025-06-23 16:00:09 | INFO | Lido: dados_12-2024.parquet
+2025-06-23 16:00:09 | INFO | Executando transformação...
+2025-06-23 16:01:08 | INFO | Exportando por mês...
+2025-06-23 16:01:09 | INFO | Exportando: dados_01-2025.parquet (475792 linhas)
+2025-06-23 16:01:10 | INFO | Exportando: dados_02-2025.parquet (162027 linhas)
+2025-06-23 16:01:10 | INFO | Exportando: dados_03-2025.parquet (182181 linhas)
+2025-06-23 16:01:10 | INFO | Exportando: dados_04-2025.parquet (391754 linhas)
+2025-06-23 16:01:11 | INFO | Exportando: dados_05-2025.parquet (451231 linhas)
+2025-06-23 16:01:11 | INFO | Exportando: dados_06-2025.parquet (304341 linhas)
+2025-06-23 16:01:11 | INFO | Exportando: dados_09-2024.parquet (5977 linhas)
+2025-06-23 16:01:11 | INFO | Exportando: dados_10-2024.parquet (116740 linhas)
+2025-06-23 16:01:11 | INFO | Exportando: dados_11-2024.parquet (336396 linhas)
+2025-06-23 16:01:12 | INFO | Exportando: dados_12-2024.parquet (462949 linhas)
+2025-06-23 16:01:12 | INFO | Pipeline time_lead_olpn concluído com sucesso.
+2025-06-23 16:01:12 | INFO | Pipeline TIME_LEAD_OLPN executado com sucesso.
+2025-06-23 16:01:12 | INFO | Processamento finalizado em 1090.63 segundos.
+2025-06-23 16:01:12 | INFO | Iniciando execução do pipeline: BOTTLENECK_SALAO
+2025-06-23 16:01:12 | INFO | Iniciando leitura dos dados...
+2025-06-23 16:01:12 | INFO | Lido: dados_01-2025.parquet
+2025-06-23 16:01:12 | INFO | Lido: dados_02-2025.parquet
+2025-06-23 16:01:12 | INFO | Lido: dados_03-2025.parquet
+2025-06-23 16:01:12 | INFO | Lido: dados_04-2025.parquet
+2025-06-23 16:01:12 | INFO | Lido: dados_05-2025.parquet
+2025-06-23 16:01:12 | INFO | Lido: dados_06-2025.parquet
+2025-06-23 16:01:12 | INFO | Lido: dados_08-2024.parquet
+2025-06-23 16:01:12 | INFO | Lido: dados_09-2024.parquet
+2025-06-23 16:01:12 | INFO | Lido: dados_10-2024.parquet
+2025-06-23 16:01:12 | INFO | Lido: dados_11-2024.parquet
+2025-06-23 16:01:12 | INFO | Lido: dados_12-2024.parquet
+2025-06-23 16:01:12 | WARNING | Dados de packed ou putaway estão vazios.
+2025-06-23 16:01:12 | WARNING | Pipeline BOTTLENECK_SALAO não gerou dados.
+2025-06-23 16:01:12 | INFO | Iniciando execução do pipeline: BOTTLENECK_BOX
+2025-06-23 16:01:12 | INFO | Iniciando leitura dos dados...
+2025-06-23 16:01:13 | INFO | Lido: dados_01-2025.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_02-2025.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_03-2025.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_04-2025.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_05-2025.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_06-2025.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_09-2024.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_10-2024.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_11-2024.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_12-2024.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_01-2025.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_02-2025.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_03-2025.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_04-2025.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_05-2025.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_06-2025.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_08-2024.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_09-2024.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_10-2024.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_11-2024.parquet
+2025-06-23 16:01:13 | INFO | Lido: dados_12-2024.parquet
+2025-06-23 16:01:28 | INFO | Exportando por mês...
+2025-06-23 16:01:28 | INFO | Arquivo gerado: dados_01-2025.parquet (36399 linhas)
+2025-06-23 16:01:28 | INFO | Arquivo gerado: dados_02-2025.parquet (23999 linhas)
+2025-06-23 16:01:28 | INFO | Arquivo gerado: dados_03-2025.parquet (53374 linhas)
+2025-06-23 16:01:29 | INFO | Arquivo gerado: dados_04-2025.parquet (129515 linhas)
+2025-06-23 16:01:29 | INFO | Arquivo gerado: dados_05-2025.parquet (192193 linhas)
+2025-06-23 16:01:29 | INFO | Arquivo gerado: dados_06-2025.parquet (142226 linhas)
+2025-06-23 16:01:29 | INFO | Arquivo gerado: dados_09-2024.parquet (1 linhas)
+2025-06-23 16:01:29 | INFO | Arquivo gerado: dados_10-2024.parquet (679 linhas)
+2025-06-23 16:01:29 | INFO | Arquivo gerado: dados_11-2024.parquet (33351 linhas)
+2025-06-23 16:01:29 | INFO | Arquivo gerado: dados_12-2024.parquet (53792 linhas)
+2025-06-23 16:01:29 | INFO | Pipeline BOTTLENECK_BOX executado com sucesso.
+2025-06-23 16:01:29 | INFO | Pipeline BOTTLENECK_BOX executado com sucesso.
