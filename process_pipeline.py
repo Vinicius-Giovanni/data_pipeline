@@ -66,6 +66,9 @@ def process_pipeline():
     else:
         logger.warning('Pipeline TIME_LEAD_OLPN não gerou dados.')
 
+    total_time = time.time() - start_time
+    logger.info(f'Processamento finalizado em {total_time:.2f} segundos.')
+
     # --- Pipeline bottleneck_salao (Estrutura autogerenciada) ---
     logger.info('Iniciando execução do pipeline: BOTTLENECK_SALAO')
     bottleneck_salao = BottleneckSalaoPipeline()
@@ -85,10 +88,6 @@ def process_pipeline():
         logger.info('Pipeline BOTTLENECK_BOX executado com sucesso.')
     else:
         logger.warning('Pipeline BOTTLENECK_BOX não gerou dados.')
-    
-    total_time = time.time() - start_time
-    minutes, seconds = divmod(total_time, 60)
-    logger.info(f'Processamento finalizado em {int(minutes)} min {seconds:.2f} seg.')
 
 if __name__ == '__main__':
     process_pipeline()
