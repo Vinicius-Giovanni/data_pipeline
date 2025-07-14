@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import re
 from unidecode import unidecode
 from pipeline.base_pipeline import BasePipeline
 from utils.classification import cancel_classify_setores
